@@ -1,0 +1,84 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "tipodoc": "Cédula Ciudadanía",
+      "numdoc": "10315315",
+      "nombre": "Juan Junior",
+      "apellido": "Perez Cardenas",
+      "fnacimiento": "2005-05-27",
+      "email": "marterchef@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "tipodoc": "Tarjeta de identidad",
+      "numdoc": "23031851",
+      "nombre": "Marco Antonio",
+      "apellido": "Cardenas Gil",
+      "fnacimiento": "1980-01-14",
+      "email": "masterchef@gmail.com",
+      "password": "1234678"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ],
+  "habitacion": [
+    [
+      {
+        "id": 102,
+        "nombrehab": "Suite Basic",
+        "capacidad": 2,
+        "camas": 1,
+        "caracteristicas": "1 cama doble, baño privado",
+        "valornoche": 10000
+      },
+      {
+        "id": 101,
+        "nombrehab": "Suite Deluxe",
+        "capacidad": 3,
+        "camas": 2,
+        "caracteristicas": "2 camas 1 doble 1 sencilla, baño privado",
+        "valornoche": 12500
+      }
+    ]
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "fechareserva": "2022-07-07",
+      "fechaentrada": "2022-08-22",
+      "fechasalida": "2022-08-26",
+      "totalnoches": 5,
+      "valorreserva": 62500,
+      "userId": 1,
+      "habitacionId": 101
+    },
+    {
+      "id": 2,
+      "fechareserva": "2022-04-07",
+      "totalnoches": 2,
+      "fechaentrada": "2022-08-20",
+      "fechasalida": "2022-08-21",
+      "valorreserva": 300000,
+      "userId": 2,
+      "habitacionId": 102
+    }
+  ]
+}
